@@ -1,0 +1,52 @@
+body {
+    margin: 150px;
+    height: 500px;
+    width: 450px;
+    border: 5px solid green;
+    padding: 25px;
+    background-color: blanchedalmond;
+}
+.screen {
+    color: black;
+    font-size: larger;
+    width: 275px;
+    height: 50px;
+    padding-left: 20px;
+    background-color: aquamarine;
+}
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    height: 250px;
+    width: 400px;
+    padding: 15px;
+}
+.button {
+    height: 50px;
+    width: 50px;
+    padding: 3px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-size: large;
+}
+.equal{
+    height: 50px;
+    width:250px;
+    margin-left: 50px;
+    background-color: greenyellow;
+}
+.operation {
+    color: black;
+    background-color: #eebb24;
+    font-size: larger;
+    height: 50px;
+    width: 50px;
+    padding: 3px;
+}
+.clear {
+    background-color: red;
+    font-size: larger;
+    width: 80px;
+    height: 55px;
+}
